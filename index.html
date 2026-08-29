@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen GDPS - Oficial</title>
     <style>
-        /* --- ESTILOS GENERALES Y FONDO --- */
         body {
             margin: 0;
             padding: 0;
@@ -43,7 +42,7 @@
             margin: 0 auto;
         }
 
-        /* --- ENCABEZADO Y BOTONES IMAGEN --- */
+
         .header-container {
             text-align: center;
             margin: 10px auto 30px auto;
@@ -55,7 +54,6 @@
             filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.8));
         }
 
-        /* BOTONES DE DESCARGA LADO A LADO EN MÓVIL */
         .gd-downloads-container {
             display: flex;
             flex-direction: row;
@@ -68,12 +66,12 @@
 
         .gd-downloads-container a {
             display: inline-block;
-            width: 46%; /* Controla el ancho del enlace para obligar la fila */
+            width: 46%; 
             max-width: 200px;
         }
 
         .gd-btn-large {
-            width: 100%; /* La imagen ocupa el 100% de su contenedor a */
+            width: 100%; 
             height: auto;
             transition: transform 0.1s ease;
             cursor: pointer;
@@ -97,13 +95,11 @@
             filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.5));
         }
 
-        /* EFECTO CLIC GEOMETRY DASH */
         .gd-btn:active, 
         .gd-btn-large:active {
             transform: scale(0.90);
         }
-
-        /* --- VIDEO PROMO --- */
+        
         .video-promo {
             margin: 30px 0;
             border: 2px solid #ffdac1;
@@ -119,7 +115,6 @@
             display: block;
         }
 
-        /* --- CAJAS TRANSPARENTES CON EFECTO GLASSMORPHISM --- */
         .cajas-dobles-madera {
             display: flex;
             gap: 15px;
@@ -169,8 +164,7 @@
     </style>
 </head>
 <body>
-
-    <!-- Fondo Animado -->
+    
     <video class="video-fondo" autoplay loop muted playsinline>
         <source src="loop_fondo.mp4" type="video/mp4">
     </video>
@@ -178,12 +172,10 @@
 
     <div class="contenedor">
         
-        <!-- Logo Principal -->
         <div class="header-container">
             <img src="head_page.png" alt="Zen GDPS Logo" class="logo-img">
         </div>
         
-        <!-- Botones de Descarga Lado a Lado -->
         <div class="gd-downloads-container">
             <a href="https://drive.google.com/file/d/1b5sf470Oqf5zZApgI4e66TtAtaK2iZo7/view?usp=drivesdk" target="_blank">
                 <img src="descarga_apk.png" alt="Descarga Android" class="gd-btn-large">
@@ -193,12 +185,10 @@
             </a>
         </div>
 
-        <!-- Tráiler -->
         <div class="video-promo">
             <iframe src="https://www.youtube.com/embed/d4mLZEDXgVA" allowfullscreen></iframe>
         </div>
 
-        <!-- Redes y Demon List (Cuadrados) -->
         <div class="gd-buttons-container">
             <a href="https://sites.google.com/view/zgdps-demon-list/demon-list?authuser=0" target="_blank">
                 <img src="dl_buttom.png" alt="Demon List" class="gd-btn">
@@ -213,8 +203,7 @@
                 <img src="tiktok_buttom.png" alt="TikTok" class="gd-btn">
             </a>
         </div>
-
-        <!-- Estadísticas y Nivel Destacado (Al final) -->
+        
         <div class="cajas-dobles-madera">
             <div class="caja-madera">
                 <h3>Discord </h3>
@@ -231,7 +220,6 @@
 
     </div>
 
-    <!-- Scripts de Datos en Vivo -->
     <script src="destacado.js"></script>
     <script>
         const DISCORD_GUILD_ID = "1542250869028814878";
