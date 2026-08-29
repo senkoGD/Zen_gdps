@@ -1,0 +1,26 @@
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.contenido-central {
+  flex-grow: 1; 
+  padding: 20px;
+}
+
+
+.contenedor-inferior {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
