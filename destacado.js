@@ -1,6 +1,6 @@
 const nivelSemanal = {
-  nombre: "easy level",
-  creador: "SenkoGD"
+  nombre: "Furnace Demoled",
+  creador: "papasMClol"
 };
 
 
